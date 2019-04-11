@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack",
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,8 @@
     "chair": "0.0.0",
     "mocha": "^6.1.2",
     "mocha-loader": "^2.0.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.1"
   }
 }
